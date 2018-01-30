@@ -11,16 +11,5 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require_tree .
+//= require jquery3
 //= require jquery.slick
-
-
-
-$(document).ready(function(){
-    $('.carousel').slick({
-        slidesToShow: 1,
-        slidesToScroll: 0,
-        autoplay: true,
-        autoplaySpeed: 1500,
-      });
-  });
