@@ -4,12 +4,14 @@
     <title>Political Storm</title>
     <%= render 'layouts/meta' %>
     <%= render 'layouts/stylesheets' %>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   </head>
 
   <body>
     <%= render 'layouts/header' %>
     <%= render 'layouts/carousel'%>
-    <div class="container grid-xl">
+    <div class="container grid-lg">
       <%= yield %>
     </div>
     <%= render 'layouts/footer' %>

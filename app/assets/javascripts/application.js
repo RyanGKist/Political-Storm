@@ -13,4 +13,14 @@
 //= require rails-ujs
 //= require_tree .
 //= require jquery.slick
-//= require jquery
+
+
+
+$(document).ready(function(){
+    $('.carousel').slick({
+        slidesToShow: 1,
+        slidesToScroll: 0,
+        autoplay: true,
+        autoplaySpeed: 1500,
+      });
+  });
