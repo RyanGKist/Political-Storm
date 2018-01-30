@@ -26,9 +26,9 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'webpacker', '~>3.0'
 
+gem 'jquery-rails'
+gem 'jquery-slick-rails'
 
-
-gem "jquery-slick-rails"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
