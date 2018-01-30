@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Political Storm</title>
+    <%= render 'layouts/meta' %>
+    <%= render 'layouts/stylesheets' %>
+  </head>
+
+  <body>
+    <%= render 'layouts/header' %>
+    <%= render 'layouts/carousel'%>
+    <div class="container grid-xl">
+      <%= yield %>
+    </div>
+    <%= render 'layouts/footer' %>
+    <%= render 'layouts/javascript' %>
+  </body>
+</html>
