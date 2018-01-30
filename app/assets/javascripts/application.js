@@ -18,9 +18,9 @@
 
 $(document).ready(function(){
     $('.carousel').slick({
-        slidesToShow: 1,
+        slidesToShow: 0,
         slidesToScroll: 0,
         autoplay: true,
-        autoplaySpeed: 1500,
+        autoplaySpeed: 1700,
       });
   });
