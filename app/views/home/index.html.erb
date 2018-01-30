@@ -1,13 +1,14 @@
 <%= render 'layouts/category_nav_bar'%>
 
-<div class="slick-test">
-  <div><%= image_tag 'http://placehold.it/800x500' %></div>
-  <div><%= image_tag 'http://placehold.it/800x500/000000/ffffff' %></div>
-  <div><%= image_tag 'http://placehold.it/800x500/fefefe/cacaca' %></div>
-</div>
+
 
 <%= content_for :page_scripts do %>
   <script>
-    $('.slick-test').slick();
+    $('.carousel').slick({
+        slideToShow: 1,
+        slideToScroll: 0,
+        autoplay: true,
+        autoplaySpeed: 1700,
+    });
   </script>
 <% end %>
