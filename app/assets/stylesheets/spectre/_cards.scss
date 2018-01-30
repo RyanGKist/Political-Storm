@@ -1,11 +1,11 @@
 // Cards
 .card {
   background: $bg-color-light;
-  border: $border-width solid $border-color;
+  border: $border-width-lg solid $border-color;
   border-radius: $border-radius;
   display: flex;
   flex-direction: column;
-
+  
   .card-header,
   .card-body,
   .card-footer {

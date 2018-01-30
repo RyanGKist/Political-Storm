@@ -1,0 +1,15 @@
+.border-bottom {
+    border-bottom: $border-width solid $border-color;
+}
+
+.border-bottom-lg {
+    border-bottom: $border-width-lg solid $border-color;
+}
+
+.border-top {
+    border-top: $border-width solid $border-color;
+}
+
+.border-top-lg {
+    border-top: $border-width-lg solid $border-color;
+}

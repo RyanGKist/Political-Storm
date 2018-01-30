@@ -30,7 +30,7 @@ $error-color: #e85600 !default;
 // Other colors
 $code-color: #e06870 !default;
 $highlight-color: #ffe9b3 !default;
-$body-bg: $bg-color-light !default;
+$body-bg: $secondary-color !default;
 $body-font-color: lighten($dark-color, 5%) !default;
 $link-color: $primary-color !default;
 $link-color-dark: darken($link-color, 5%) !default;
@@ -70,7 +70,7 @@ $font-size-lg: .9rem !default;
 $line-height: 1rem !default;
 
 // Sizes
-$layout-spacing: $unit-2 !default;
+$layout-spacing: $unit-5 !default;
 $layout-spacing-sm: $unit-1 !default;
 $layout-spacing-lg: $unit-4 !default;
 $border-radius: $unit-h !default;
@@ -109,3 +109,5 @@ $zindex-1: 100 !default;
 $zindex-2: 200 !default;
 $zindex-3: 300 !default;
 $zindex-4: 400 !default;
+
+

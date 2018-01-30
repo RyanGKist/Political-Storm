@@ -5,6 +5,8 @@
 
 @include text-color-variant(".text-gray", $gray-color);
 
+@include text-color-variant(".text-dark", $dark-color);
+
 @include text-color-variant(".text-light", $light-color);
 
 @include text-color-variant(".text-success", $success-color);
