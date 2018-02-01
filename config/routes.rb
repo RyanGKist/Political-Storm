@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   
   get 'articles', to: 'articles#index'
 
+  get 'categories', to: 'categories#index'
+
   resources :sessions, only: [:create], path: 'login'
   get 'login', to: 'sessions#new', as: :login
 
