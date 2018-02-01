@@ -1,0 +1,19 @@
+<%= form_tag sessions_path do %>
+  <div class="form-group">
+    <%= label_tag :email, 'E-mail', class: 'form-label' %>
+    <%= text_field_tag :email, params[:email], placeholder: 'rick.sanchez@gmail.com', class: 'form-input' %>
+  </div>
+
+  <div class="form-group">
+    <%= label_tag :password, 'Password',  class: 'form-label' %>
+    <%= password_field_tag :password, nil, placeholder: '******', class: 'form-input' %>
+    <small>
+      <%= link_to 'Forgot password?', root_url %>
+    </small>
+  </div>
+
+  <div class="text-right">
+    <%= link_to 'Sign up', signup_path, class: 'btn btn-link' %>
+    <%= submit_tag 'Log in', class: 'btn btn-primary' %>
+  </div>
+<% end %>

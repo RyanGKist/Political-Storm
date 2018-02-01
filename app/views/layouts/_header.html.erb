@@ -1,11 +1,13 @@
 <header class="navbar py-4 px-2 mb-5 bg-secondary border-bottom-lg">
   <section class="navbar-section">
     <a href="#" class="navbar-brand mr-2">Political Storm</a>
-    <a href="#" class="btn btn-link">Articles</a>
-    <a href="https://github.com/picturepan2/spectre" class="btn btn-link">About</a>
   </section>
   <section class="navbar-section">
-    <a href="#" class="btn btn-link">Log in</a>
-    <a href="#" class="btn btn-primary">Sign up</a>
+  <% if current_user %> 
+    <%= link_to "Sign Out", logout_path %>
+  <% else %>
+    <%= link_to "Log in", login_path, class: 'btn btn-link'%>
+    <%= link_to "Sign Up", signup_path, class: 'btn btn-link' %>
+  <% end %>
   </section>
 </header>

@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/codyeatworld/spectre_form_with.git
+  revision: 702315f37f5ebdaa1c42164d57e734d00ddd8f4c
+  specs:
+    spectre_form_with (0.1.0)
+      rails (~> 5.1.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -187,6 +194,7 @@ DEPENDENCIES
   redis (~> 3.0)
   sass-rails (~> 5.0)
   selenium-webdriver
+  spectre_form_with!
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data

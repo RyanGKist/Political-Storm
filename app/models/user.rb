@@ -1,6 +1,6 @@
 class User < ApplicationRecord
     
-    include Users::Confrimable
+    include Users::Confirmable
 
     before_save :downcase_email
 

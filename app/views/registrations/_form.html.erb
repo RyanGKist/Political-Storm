@@ -1,0 +1,23 @@
+<%= spectre_form_with model: @user,local: true, url: registrations_path do |f| %>
+  <%= f.error_notification %>
+
+  <%= f.group :email do %>
+    <%= f.label :email %>
+    <%= f.email_field :email %>
+    <%= f.errors :email %>
+  <% end %>
+
+  <%= f.group :password do %>
+    <%= f.label :password %>
+    <%= f.password_field :password %>
+    <%= f.errors :password %>
+  <% end %>
+
+  <%= f.group :password_confirmation do %>
+    <%= f.label :password_confirmation %>
+    <%= f.password_field :password_confirmation %>
+    <%= f.errors :password_confirmation %>
+  <% end %>
+
+  <%= f.submit 'Sign up', class: 'btn btn-primary' %>
+<% end %>

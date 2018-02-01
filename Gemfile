@@ -29,6 +29,8 @@ gem 'webpacker', '~>3.0'
 gem 'jquery-rails'
 gem 'jquery-slick-rails'
 
+gem 'spectre_form_with', github: 'codyeatworld/spectre_form_with'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
